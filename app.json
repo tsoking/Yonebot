@@ -7,75 +7,73 @@
        "group",
        "manager",
        "yone"
-    ],   
+       
  "repository": "https://github.com/noob-kittu/YoneRobot",
  "addons": [
-    {
+    
        "options": {
           "version": "12"
-       },
+       
        "plan": "heroku-postgresql"
-    }
+    
  ],
  "buildpacks": [
-    {
+    
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
+    
       "url": "heroku/python"
-    }
-  ],
- "env": {
+   
+ "env": 
     "TOKEN" "5868495163:AAFYxtBvGQ_7yVnqyV3YOJsBvBdsAgeJZLc"
-    },
+    
     "API_ID" "16201672"
-    },
+    
     "API_HASH" "55f85061314c2c0f6edeec9751b90913"
-    },    
+        
     "SQLALCHEMY_DATABASE_URI": {
        "description": "Your postgres sql db, empty this field if you dont have one.",
        "required": false,
        "value": "sqldbtype://username:pw@hostname:port/db_name"
-    },      
+         
     "OWNER_ID" "5686536025"
-    },
+    
 
     "BOT_NAME" "TSO BOT"
-    },
+    
     "OWNER_USERNAME" "ll_TSO_KING_ll"
-    },
+    
     "SUPPORT_CHAT" "BAKCHODI_hub"
-    },      
+         
     "PHOTO" "https://te.legra.ph/file/548328a198eefa046191d.jpg"
-    },      
+        
     "DEV_USERS" "5115848803"
-    },
+    
     "INSPECTOR" "5115848803"
-    },
+    
     "REQUESTER" "5115848803"
-    },
+    
     "ENV" "ANYTHING"
-    },
+    
     "WEBHOOK": {
        "description": "Setting this to ANYTHING will enable webhooks. If you dont know how this works leave it as it is",
        "required": false,
        "value": ""
-    },
+    
     "PORT": {
        "description": "Port to use for your webhooks. Better leave this as it is on heroku",
        "required": false,
        "value": ""
-    },
+    
     "URL": {
        "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
        "required": false,
        "value": ""
-    },
+    
     "No_LOAD": {
        "description": "Dont load these modules cause they shit, space separation",
        "required": false,
        "value": "rss"
-    }, 
+     
     "ALLOW_EXCL": {
        "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
        "value": "True"
