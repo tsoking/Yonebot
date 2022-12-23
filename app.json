@@ -26,69 +26,35 @@
     }
   ],
  "env": {
-    "TOKEN": {
-       "description": "Your bot token. Get one from @BotFather duh",
-       "required": true,
-       "value": ""
+    "TOKEN" "5868495163:AAFYxtBvGQ_7yVnqyV3YOJsBvBdsAgeJZLc"
     },
-    "API_ID": {
-       "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
-       "required": true,
-       "value": "3160248"
+    "API_ID" "16201672"
     },
-    "API_HASH": {
-       "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
-       "required": true,
-       "value": "da866bcad3446898c4d4a20fa10b9d09"
+    "API_HASH" "55f85061314c2c0f6edeec9751b90913"
     },    
     "SQLALCHEMY_DATABASE_URI": {
        "description": "Your postgres sql db, empty this field if you dont have one.",
        "required": false,
        "value": "sqldbtype://username:pw@hostname:port/db_name"
     },      
-    "OWNER_ID": {
-       "description": "Your user ID as an integer.",
-       "required": true,
-       "value": "1697409878"
+    "OWNER_ID" "5686536025"
     },
 
-    "BOT_NAME": {
-       "description": "Insert below your bot, it will appear everywhere",
-       "required": true,
-       "value": ""
+    "BOT_NAME" "TSO BOT"
     },
-    "OWNER_USERNAME": {
-       "description": "Your username without the @",
-       "value": "kumjojass"
+    "OWNER_USERNAME" "ll_TSO_KING_ll"
     },
-    "SUPPORT_CHAT": {
-       "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
-       "required": true,
-       "value": "league_of_bots"
+    "SUPPORT_CHAT" "BAKCHODI_hub"
     },      
-    "PHOTO": {
-       "description": "Your Telegram Bot Image (Add Link Only).",
-       "required": true,
-       "value": "https://telegra.ph/file/b749b0e80e82291e85e10.jpg"
+    "PHOTO" "https://te.legra.ph/file/548328a198eefa046191d.jpg"
     },      
-    "DEV_USERS": {
-       "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
-       "required": false,
-       "value": ""
+    "DEV_USERS" "5115848803"
     },
-    "INSPECTOR": {
-       "description": "A space separated list of user IDs who you want to assign as inspector users.",
-       "required": false,
-       "value": ""
+    "INSPECTOR" "5115848803"
     },
-    "REQUESTER": {
-       "description": "A space separated list of user IDs who you wanna assign as requester(gban perms only).",
-       "required": false,
-       "value": ""
+    "REQUESTER" "5115848803"
     },
-    "ENV": {
-       "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
-       "value": "ANYTHING"
+    "ENV" "ANYTHING"
     },
     "WEBHOOK": {
        "description": "Setting this to ANYTHING will enable webhooks. If you dont know how this works leave it as it is",
